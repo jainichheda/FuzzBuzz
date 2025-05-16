@@ -1,0 +1,376 @@
+*{
+   margin:0;
+   padding:0;
+   font-family:'Roboto', sans-serif;
+ }
+ 
+ .container{
+        width: 100%;
+		height: 100vh;
+		background-image: linear-gradient(rgba(0 0 0 / 37%),rgba(0,0,0,0.7)),url(https://i.pinimg.com/736x/9f/5b/5d/9f5b5d8faba3fc0634d0e1a576a6f857.jpg);
+		background-position: center;
+		background-size: cover;
+		padding-left: 8%;
+		padding-right: 8%;
+		box-sizing: border-box;
+	
+		
+ }
+  
+  .navbar{
+	  height: 12%;
+	  display: flex;
+	  align-items: center;
+	  
+  }
+  
+  .logo{
+	  width: 25px;
+	  height: 10px;
+	  cursor: pointer;
+	  
+  }
+  
+  .navbar h1{
+	  font-size: 60px;
+	  color: white;
+	  padding: 10px;
+	  
+  }
+  
+  .col h2{
+	  font-size: 50px;
+  }
+ 
+  
+  .menu{
+	  flex: 1;
+	  text-align: right;
+  }
+  
+  
+  .menu ul li{
+	  list-style: none;
+	  display: inline-block;
+	  margin-left: 60px;
+	  position: relative;
+  } 
+  
+  .menu ul li a{
+	  text-decoration: none;
+	  color: white;
+	  font-size: 13px;
+  }
+  
+  .menu ul li::after{
+	  content: '';
+	  height: 3px;
+	  width: 0%;
+	  background: #d67511;
+	  position: absolute;
+	  left: 0;
+	  bottom: -10px;
+	  transition: 0.5s;
+  }
+  
+  .menu ul li:hover::after{
+	  width: 100%
+  }
+  
+  
+  .row{
+	  display: flex;
+	  height: 88%;
+	  align-items: center;
+  }
+  
+  .col{
+	  color: white;
+	  font-size: 50px;
+  }
+  
+  
+ 
+
+  .pic{
+   padding: 50px;
+   background-color: white;
+   transition: transform 0.5s;
+   width: 200px;
+   height: 230px;
+   margin: 0 auto;
+   display: inline-block;
+   border-radius: 10px;
+   box-sizing: border-box;
+   cursor: pointer;
+   margin: 10px 15px;
+   background-position: center;
+   background-size: cover;
+  }
+  
+  .pic1{
+	  background-image: url(https://images.unsplash.com/photo-1420593248178-d88870618ca0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHw%3D&w=1000&q=80);
+  }
+  
+    .pic2{
+	  background-image: url(https://images.unsplash.com/photo-1576258714516-bef9f77b1b96?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Djpg);
+  }
+  
+    .pic3{
+	  background-image: url(https://qph.cf2.quoracdn.net/main-qimg-5e3436b8d39f621f357b2c9c2847e339-lq);
+  }
+  
+    .pic4{
+	  background-image: url(https://images.unsplash.com/photo-1524228529766-4d7fe5dc55ca?q=80&w=1929&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D.jpg);
+  }
+  
+  .pic:hover {
+	  transform: scale(1.5);
+  }
+  
+  
+  h5{
+	color: white; 
+   	font-size: 15px;
+  }
+  
+  a{
+	  text-decoration:none;
+  }
+  
+  
+  
+  
+  
+  
+   .container1{
+     background-image: linear-gradient(rgba(0 0 0 / 37%),rgba(0,0,0,0.7)),url(https://thumbs.dreamstime.com/b/green-leaf-life-shiny-one-light-spiral-banana-solid-background-toned-image-made-minimal-zen-nature-aesthetic-135843770.jpg);
+		
+ }
+ 
+  .container2{
+       
+		background-image: linear-gradient(rgba(0 0 0 / 37%),rgba(0,0,0,0.7)),url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2VhJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80);
+		
+		
+ }
+ 
+  .container3{
+       
+		background-image: linear-gradient(rgba(0 0 0 / 37%),rgba(0,0,0,0.7)),url(https://photobest1.com/wp-content/uploads/2018/04/download-desert-wallpaper-hd-03.jpg);
+		
+		
+ }
+ 
+  .container4{
+       
+		background-image: linear-gradient(rgba(0 0 0 / 37%),rgba(0,0,0,0.7)),url(https://c4.wallpaperflare.com/wallpaper/782/943/697/inkwell-pen-ink-wallpaper-thumb.jpg);
+		
+		
+ }
+ 
+ 
+  header{
+	 font-size: 40px;
+	 font-family: italic;
+	 text-align: center;
+	 color: black;
+  }
+ 
+  p{
+	font-size: 30px; 
+  }
+  
+  main{
+	  margin-left: 5px;
+	  margin-right: 50px;
+  }
+ 
+ .box{
+	
+	
+	 box-sizing: border-box;
+	
+ }
+ .row{
+	 display: flex;
+ }
+ .row2{
+	 display: flex;
+ }
+ .column{
+	 
+	flex: 10%;
+ }
+ 
+ .column img{
+	 width: 300px;
+	 height: 200px;
+	 padding: 5px;
+	 border-radius: 20px;
+	
+ }
+
+  .column img:hover {
+	 transform: scale(1.2);
+	 transition: .3s transform
+ }
+ 
+ 
+ .review{
+	 width: 100%;
+	 height: 100vh;
+	 background-image: url(https://wallpapercave.com/wp/wp5197080.jpg);
+	 padding-left: 8%;
+	padding-right: 8%;
+ }
+ .review header{
+	 color:white;
+ }
+ .card{
+	 background-color: white;
+ }
+ .card p{
+	 font-size: 20px;
+ }
+ 
+ .card h4{
+	 color: black;
+	 font-size: 30px;
+	 font-weight: bold;
+	 
+ }
+
+
+ 
+  .col1{
+	 box-sizing: border-box;
+     float: left;
+	 width: 100px;
+     padding: 20px;
+	 text-align: center;
+	 width: 25%;
+     display: block;
+ }
+
+  .row1{ 
+     margin: auto;
+	 text-align: center;
+	 margin: 0 -5px;
+	 
+   }
+ 
+  .card {
+	  box-sizing: border-box;
+	  width: 400px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+      padding: 16px;
+      background-color: #B9CDCB;
+	  border-radius: 20px;
+   }
+   
+
+
+ 
+ .navbar-contact{
+	 font-family: "montserrat" ,sans-serif;
+	 background-image: linear-gradient(rgba(0 0 0 / 37%),rgba(0,0,0,0.7)),url(https://images.unsplash.com/photo-1575903690629-a1b0203e2f08?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Ymx1ZSUyMGFlc3RoZXRpY3xlbnwwfHwwfHw%3D&w=1000&q=80);
+	 background-size: cover;
+	 padding-left: 8%;
+	 padding-right: 8%;
+	 background-repeat: no-repeat;
+	 background-position: center center;
+	 width: 84%;
+	 height: 100vh;
+     
+ }
+ .contact-section{
+	 margin-right: 20%;
+	 margin-left: 30%;
+ }
+ .contact-section h1{ 
+    text-align: center;
+	margin-left: 5%;
+	margin-right: 50%;
+	color: white;
+	margin-top: 5%;
+ }
+
+
+.contact-form{
+	max-width: 600px;
+	margin: auto;
+	padding: 0 10px;
+	overflow: hidden;
+}
+.contact-form-text{
+	display: block;
+	width: 50%;
+	box-sizing: border-box;
+	margin: 16px 0;
+	border: 0;
+	background: ;
+	padding: 20px 40px;
+	outline: none;
+	color: black;
+	transition: 0.5s;
+	
+}
+
+.contact-form-num{
+	display: block;
+	width: 50%;
+	box-sizing: border-box;
+	margin: 16px 0;
+	border: 0;
+	background: ;
+	padding: 20px 40px;
+	outline: none;
+	color: black;
+	transition: 0.5s;
+	
+}
+ .contact-form-text:focus{
+	 box-shadow: 0 0 10px 4px white;
+	 
+ }
+ .contact-form-num:focus{
+	 box-shadow: 0 0 10px 4px white;
+	 
+ }
+ textarea.contact-form-text{
+	 resize: none
+	 height: 120px;
+ }
+ .contact-form-btn{
+	 float: right;
+	 border: 0;
+	 background: #34495e;
+	 color: #fff;
+	 padding: 12px 20px;
+	 border-radius: 20px;
+	 cursor: pointer;
+	 transition: 0.5s;
+	 margin-right: 70%;
+	 
+ }
+ 
+ .contact-form-btn:hover{
+	 background: #2980b9;
+ }
+ 
+ .navbar-about{
+	 background: url(https://wallpapercave.com/wp/wp5197080.jpg);
+	 padding-left: 8%;
+	padding-right: 8%;
+	 
+ }
+ 
+ 
+ .about-page p{
+	 color: white;
+	 text-align: left;
+	 margin-left: 10%;
+	 margin-right: 10%;
+	 font-size: 25px;
+ }
